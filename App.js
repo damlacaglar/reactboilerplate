@@ -30,8 +30,8 @@ export default class MyComponent extends Component {
         barStyle={{ backgroundColor: "#c95313" }}
       >
         <BottomTab.Screen name="Tab1" component={Tab1} options={{title:"Ürünler"}} />
-        <BottomTab.Screen name="Tab2" component={Tab2} options={{title:"Sepet"}}/>
-        <BottomTab.Screen name="Tab3" component={Tab3} options={{title:"Sipariş"}}/>
+        <BottomTab.Screen name="Tab2" component={Tab2} options={{title:"Ara"}}/>
+        <BottomTab.Screen name="Tab3" component={Tab3} options={{title:"Sepet"}}/>
       </BottomTab.Navigator>
     );
   };

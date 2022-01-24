@@ -41,6 +41,7 @@ export default class AddToCartButton extends Component {
             productId: this.props.product.productId,
             quantity: 1,
             price: this.props.product.price,
+            productName : this.props.product.name
           })
           .then((x) => {
             console.log("ekleme tamamlandı.");
