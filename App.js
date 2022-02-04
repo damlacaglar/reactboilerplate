@@ -27,7 +27,7 @@ export default class MyComponent extends Component {
       <BottomTab.Navigator
         activeColor="#ffefe7"
         inactiveColor="#bd9985"
-        barStyle={{ backgroundColor: "#c95313" }}
+        barStyle={{ backgroundColor: "#4a572a" }}
       >
         <BottomTab.Screen name="Tab1" component={Tab1} options={{title:"Ürünler"}} />
         <BottomTab.Screen name="Tab2" component={Tab2} options={{title:"Ara"}}/>
@@ -66,7 +66,7 @@ export default class MyComponent extends Component {
           <Stack.Screen
             name="Home"
             children={this.createDrawerPage}
-            options={{ headerShown: false }}
+            // options={{ headerShown: false }}
           />
         </Stack.Navigator>
       </NavigationContainer>

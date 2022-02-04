@@ -7,7 +7,7 @@ export default class Account1 extends Component {
   render() {
     return (
       <View>
-        <Text>Account 1 </Text>
+        <Text> Account 1 </Text>
       </View>
     );
   }
